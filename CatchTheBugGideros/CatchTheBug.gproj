@@ -1,0 +1,48 @@
+<project>
+ <properties autorotation="0" fps="60" scaleMode="0" iosDevice="1" xcodeVersion="0" packageName="com.retal.catchthebug" logicalHeight="480" logicalWidth="320" retinaDisplay="0" assetsOnly="0" orientation="0" architecture="1">
+  <imageScales/>
+ </properties>
+ <folder name="helpers">
+  <file source="helpers/json.lua"/>
+  <file source="helpers/dataSaver.lua"/>
+ </folder>
+ <folder name="res">
+  <folder name="sound">
+   <file source="res/sound/win.mp3"/>
+   <file source="res/sound/theme.mp3"/>
+   <file source="res/sound/miss.mp3"/>
+   <file source="res/sound/lose.mp3"/>
+   <file source="res/sound/hit.mp3"/>
+  </folder>
+  <folder name="images">
+   <file source="res/images/start_up.png"/>
+   <file source="res/images/start_down.png"/>
+   <file source="res/images/soundson_up.png"/>
+   <file source="res/images/soundson_down.png"/>
+   <file source="res/images/soundsoff_up.png"/>
+   <file source="res/images/soundsoff_down.png"/>
+   <file source="res/images/options_up.png"/>
+   <file source="res/images/options_down.png"/>
+   <file source="res/images/musicon_up.png"/>
+   <file source="res/images/musicon_down.png"/>
+   <file source="res/images/musicoff_up.png"/>
+   <file source="res/images/musicoff_down.png"/>
+   <file source="res/images/back_up.png"/>
+   <file source="res/images/back_down.png"/>
+   <file source="res/images/bug.png"/>
+  </folder>
+ </folder>
+ <folder name="screens">
+  <file source="screens/optionsScreen.lua"/>
+  <file source="screens/mainScreen.lua"/>
+  <file source="screens/gameScreen.lua"/>
+ </folder>
+ <folder name="ui">
+  <file source="ui/sceneManager.lua"/>
+  <file source="ui/easing.lua"/>
+  <file source="ui/button.lua"/>
+ </folder>
+ <file source="bug.lua"/>
+ <file source="main.lua"/>
+ <file source="plan.txt"/>
+</project>

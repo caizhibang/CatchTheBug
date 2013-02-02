@@ -1,0 +1,20 @@
+#Pre-Release
+
+-bug freezes on touchdown event (onMouseDown event:stopPropagation())
+-add difficulty
+-you win / lost screen. with killed bugs count, share - retry - back to menu buttons
+-animated bugs with frameset
+-adMob integration
+-background image
+-exit button and / or backbutton works as exit (exit button 70%)
+-better texts with nice fonts (lives / time)
+
+#Pre-Release
+
+#Further Releases
+
+-Language support (Turkish, German)
+-Level based game mode (Campaign)
+-Friends included game mode (SaveThem)
+
+#Further Releases
